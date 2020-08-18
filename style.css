@@ -1,0 +1,464 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index:1;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
+}
+#menu{
+    width: 450px;
+    padding-top: 13px;
+    margin: auto;
+}
+#menu ul a{
+    color: black;
+    text-decoration: none;
+    font: 40px verdana;
+    padding: 13px 20px 17px 20px; 
+}
+#menu ul a:hover{
+    color: rgb(50, 112, 194);
+    background: rgb(255, 255, 255);
+}
+
+#g{
+    background-image: url(natu.jpg);
+    width: 1400x;
+    height: 630px;
+    background-repeat: no-repeat;
+    background-size: 1400px 630px;
+}
+#f1{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translatex(-50%) translateY(-50%);
+    text-align: center;
+    font-size: 32px;
+    color: white;
+
+
+}
+#f2{
+    position: absolute;
+    left: 50%;
+    top:59%;
+    transform: translatex(-50%) translateY(-50%);
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-family:  Georgia;
+
+
+}
+
+
+
+
+#ig{
+width: 1100px;
+height: 300px;
+margin-left: 100px;
+
+}
+
+#aliance{
+   width:605px ;
+   height: 300px;
+   position: relative;
+   left: 45%;
+}
+#navi{
+    width: 400px;
+    height: 270px;
+    position: relative;
+    bottom: 92%;
+    left: 6%;
+    background-image: url(c.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#tit{
+    float: left;
+    font-size: 18px;
+    color:black;
+    padding-top: 60px;
+    padding-right: 40px;
+
+}
+.g{
+    float: left;
+    font-size: 18px;
+    color:black;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+#og{
+    width:605px ;
+    height: 300px;
+    position: relative;
+    left: 45%;
+}
+#lgd{
+    width: 405px;
+    height: 255px;
+    position: relative;
+    bottom: 96%;
+    left: 6%;
+    background-image: url(psg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+#beast{
+    width:605px ;
+    height: 300px;
+    position: relative;
+    left: 45%;
+}
+#thunder{
+    width: 400px;
+    height: 270px;
+    position: relative;
+    bottom: 105%;
+    left: 6%;
+    background-image: url(java.jpg);
+    background-size: 100% 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-repeat: no-repeat;
+}
+
+
+
+#fn{
+background-color: rgb(49, 138, 255);
+width: 1410px;
+height: 400px;
+
+
+}
+#titulo{
+    position: relative;
+    top: 10%;
+    left: 30%;
+    width: 800px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#subtit{
+    position: relative;
+    text-align: center;
+    right: 20%;
+    font-family: Georgia;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+#fa{
+    background-image: url(musica.jpeg);
+    background-size: 280px 150px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    left: 58%;
+    top: 25%;
+    transition: 1s;
+}
+#fa:hover{
+    transform: scale(1.1);
+}
+#fe{
+    background-image: url(anime.jpg);
+    background-size: 270px 150px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    left: 13%;
+    bottom: 13%;
+    transition: 1s;
+}
+#fe:hover{
+    transform: scale(1.1);
+}
+#fi{
+    background-image: url(videojuegos.jpg);
+    background-size: 280px 150px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    left: 35%;
+    bottom: 50%;
+    transition: 1s;
+}
+#fi:hover{
+    transform: scale(1.1);
+}
+
+
+
+#padre{
+    width: 1300px;
+    height: 1100px;
+}
+
+#re{
+    width:1300px ;
+    height: 200px;
+    position: relative;
+    top: 80px;
+ }
+
+ .rey{
+    text-align: center;
+    color:black;
+    line-height: 10px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+ }
+
+
+ .queen{
+    text-align: center;
+    color:black;
+    line-height: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+
+ }
+ 
+ 
+#pa{
+    width: 208px;
+    height: 250px;
+    background-image: url(comeandget.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left:1% ;
+    top: 10%;
+    -webkit-filter: grayscale(75%);
+    transition: transform 1s;
+}
+#pa:hover{
+    -webkit-filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+
+#pe{
+    width: 208px;
+    height: 250px;
+    background-image: url(devuelvemeamichica.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left:17.1% ;
+    bottom: 12.7%;
+    -webkit-filter: grayscale(75%);
+    transition: transform 1s;
+}
+#pe:hover{
+    -webkit-filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+
+
+#pi{
+    width: 208px;
+    height: 250px;
+    background-image: url(corazon.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left:33.2% ;
+    bottom: 35.5%;
+    -webkit-filter: grayscale(75%);
+    transition: transform 1s;
+}
+#pi:hover{
+    -webkit-filter: grayscale(0%);
+    transform: scale(1.1);
+}
+#po{
+    width: 215px;
+    height: 250px;
+    background-image: url(festine.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left:49.3% ;
+    bottom: 58.2%;
+    -webkit-filter: grayscale(75%);
+    transition: transform 1s;
+}
+#po:hover{
+    -webkit-filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+
+
+#pu{
+    width: 212px;
+    height: 250px;
+    background-image: url(cantstop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left:66.6% ;
+    bottom: 80.8%;
+    -webkit-filter: grayscale(75%);
+    transition: transform 1s;
+}
+#pu:hover{
+    -webkit-filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+
+
+#ap{
+    width: 212px;
+    height: 250px;
+    background-image: url(itwanstme.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left:83%;
+    bottom: 103.6%;
+    -webkit-filter: grayscale(75%); 
+    transition: transform 1s;
+}
+#ap:hover{
+    -webkit-filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+
+#imagine{
+    width: 208px;
+    height: 250px;
+    background-image: url(belive.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left:17.1%;
+    bottom: 103.4%;
+    -webkit-filter: grayscale(75%);
+    transition: transform 1s;
+}
+#imagine:hover{
+    -webkit-filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+
+
+#belive{
+    width: 208px;
+    height: 250px;
+    background-image: url(imagine.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left:33.2% ;
+    bottom: 126.1%;
+    -webkit-filter: grayscale(75%);
+    transition: transform 1s;
+}
+#belive:hover{
+    -webkit-filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+#oscar{
+    width: 215px;
+    height: 250px;
+    background-image: url(detalles.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left:49.3% ;
+    bottom: 148.8%;
+    -webkit-filter: grayscale(75%);
+    transition: transform 1s;
+}
+#oscar:hover{
+    -webkit-filter: grayscale(0%);
+    transform: scale(1.1);
+}
+#dlg{
+    width: 212px;
+    height: 250px;
+    background-image: url(quiero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left:66.6% ;
+   bottom: 171.4%;
+    -webkit-filter: grayscale(75%);
+    transition: transform 1s;
+}
+#dlg:hover{
+    -webkit-filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+#panda{
+    width: 208px;
+    height: 250px;
+    background-image: url(amantes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left:33.2% ;
+    bottom: 171.3%;
+    -webkit-filter: grayscale(80%);
+    transition: transform 1s;
+}
+#panda:hover{
+    -webkit-filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+#libido{
+    width: 215px;
+    height: 250px;
+    background-image: url(libido.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left:49.3% ;
+    bottom: 194%;
+    -webkit-filter: grayscale(75%);
+    transition: transform 1s;
+}
+#libido:hover{
+    -webkit-filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+/* A QUI TERMINA MI TRABAJO, GRACIAS POR VER!!*/ 
